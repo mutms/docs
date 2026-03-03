@@ -1,0 +1,25 @@
+name: sitedocs
+services:
+  node:
+    container_name: sitewww-docs
+    image: node:22-bookworm
+    working_dir: /astro
+    command: tail -f /dev/null
+    # command: sh -c "npm install && npm run dev"
+    # command: sh -c "npm install && npm run dev & npx wrangler pages dev ./dist --port 8787 --ip 0.0.0.0"
+    networks:
+      default: null
+    volumes:
+      - type: bind
+        source: /Users/skodak/workspace/sitedocs
+        target: /astro
+        bind:
+          create_host_path: true
+    ports:
+      - "127.0.0.1:4321:4321"
+      - "127.0.0.1:8787:8787"
+    environment:
+      - NODE_ENV=development
+networks:
+  default:
+    name: sitedocs_default
