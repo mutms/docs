@@ -6,25 +6,76 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Docs',
+			logo: {
+				src: './src/assets/logo.svg',
+				replacesTitle: false,
+			},
+			favicon: '/favicon.svg',
+			customCss: ['./src/styles/custom.css'],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/mutms' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Overview',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'What is MuTMS?', slug: 'mutms' },
+						{ label: 'Distribution', slug: 'mutms/distribution' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Multi-tenancy',
+					items: [
+						{label: 'Overview', slug: 'multitenancy' },
+						{label: 'Installation', slug: 'multitenancy/installation' },
+					],
+				},
+				{
+					label: 'Programs',
+					items: [
+						{label: 'Overview', slug: 'programs' },
+					],
+				},
+				{
+					label: 'Certifications',
+					items: [
+						{label: 'Overview', slug: 'certifications' },
+					],
+				},
+				{
+					label: 'Training credits',
+					items: [
+						{label: 'Overview', slug: 'credits' },
+					],
+				},
+				{
+					label: 'Supervisors & Teams',
+					items: [
+						{label: 'Overview', slug: 'relations' },
+					],
+				},
+				{
+					label: 'Custom home pages',
+					items: [
+						{label: 'Overview', slug: 'homepages' },
+					],
+				},
+				{
+					label: 'Interactive books',
+					items: [
+						{label: 'Overview', slug: 'books' },
+					],
+				},
+				{
+					label: 'Security improvements',
+					items: [
+						{label: 'Overview', slug: 'security' },
+					],
 				},
 			],
 		}),
 	],
 
-	site: 'https://www.mutms.com',
+	site: 'https://docs.mutms.org',
 	server: {
 		host: '0.0.0.0',
 		port: 4321
