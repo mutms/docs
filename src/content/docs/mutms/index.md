@@ -34,6 +34,6 @@ MuTMS is modular — you install only what you need. The suite covers:
 - [Certifications](/certifications/) — track and renew learner certifications over time
 - [Training credits](/credits/) — manage credit-based enrolment and consumption
 - [Supervisors & teams](/relations/) — define reporting relationships between users
-- [Custom home pages](/homepages/) — give each tenant or role a tailored landing experience
+- [Custom home pages](/homepages/) — give each cohort or tenant a tailored landing experience
 - [Interactive books](/books/) — enhanced content module for structured reading material
 - [Security improvements](/security/) — security-related tools and improvements
