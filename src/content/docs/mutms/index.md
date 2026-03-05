@@ -22,18 +22,22 @@ independent departments.
 Beyond that, MuTMS is designed to be dependable:
 
 - **Open source** — no vendor lock-in, full visibility into the code, and free to extend for your own needs
-- **Fully tested** — comprehensive automated test coverage means fewer surprises when upgrading Moodle or adding new plugins
-- **Professional support** — backed by deep Moodle expertise and a proven track record in enterprise environments
+- **Fully tested** — comprehensive automated test suite means fewer surprises when upgrading Moodle or adding new plugins
+- **Professional support** — backed by deep Moodle expertise and extensive experience in enterprise environments
 
 ## What's included?
 
 MuTMS is modular — you install only what you need. The suite covers:
 
-- [Multi-tenancy](/multitenancy/) — partition your Moodle site into isolated tenant spaces
-- [Programs](/programs/) — group courses into structured learning programs with enrolment rules
-- [Certifications](/certifications/) — track and renew learner certifications over time
-- [Training credits](/credits/) — manage credit-based enrolment and consumption
-- [Supervisors & teams](/relations/) — define reporting relationships between users
-- [Custom home pages](/homepages/) — give each cohort or tenant a tailored landing experience
-- [Interactive books](/books/) — enhanced content module for structured reading material
-- [Security improvements](/security/) — security-related tools and improvements
+- [Multi-tenancy](../multitenancy/) — partition your Moodle site into isolated tenant spaces
+- [Programs](../programs/) — group courses into structured learning programs with enrolment rules
+- [Certifications](../certifications/) — track and renew learner certifications over time
+- [Training credits](../credits/) — manage credit-based enrolment and consumption
+- [Supervisors & teams](../relations/) — define reporting relationships between users
+- [Custom home pages](../homepages/) — give each cohort or tenant a tailored landing experience
+- [Interactive books](../books/) — enhanced content module for structured reading material
+- [Security improvements](../security/) — security-related tools and improvements
+
+---
+
+<small>Moodle™ is a registered trademark of Moodle Pty Ltd. MuTMS is not affiliated with or endorsed by Moodle Pty Ltd.</small>

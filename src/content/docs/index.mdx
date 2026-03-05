@@ -1,37 +1,46 @@
 ---
-title: MuTMS Docs
+title: MuTMS Documentation
 description: Get started with MuTMS suite of plugins.
-hero:
-  tagline: Get started with MuTMS suite of plugins for Moodle™ LMS!
-  actions:
-    - text: Overview
-      link: /overview/mutms/
-      icon: right-arrow
-    - text: Back to main site
-      link: https://www.mutms.com/
-      icon: external
-      variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkButton } from '@astrojs/starlight/components';
 
-## Next steps
+Get started with MuTMS suite of plugins for Moodle™ LMS!
+
+<LinkButton href="./mutms/" icon="right-arrow">Overview</LinkButton>
+<LinkButton href="https://www.mutms.com/" icon="external" variant="minimal">Main site</LinkButton>
+<LinkButton href="https://github.com/mutms" icon="github" variant="minimal">Source code</LinkButton>
+
+<br /><br /><br />
+
+---
+
+<br />
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="What is MuTMS?" icon="information">
+    Learn what MuTMS is, what problems it solves, and whether it is the right
+    fit for your organisation. [Read the overview](./mutms/)
+  </Card>
+  <Card title="Install MuTMS" icon="down-caret">
+    Choose the installation method that suits your setup — from a full
+    ready-to-run distribution to individual plugins via Git or the Moodle
+    plugins database. [Installation guide](./mutms/installation/)
+  </Card>
+  <Card title="Configure Multi-tenancy" icon="setting">
+    Set up tenants, assign administrators, and configure branding and isolation
+    settings for each tenant on your site. [Multi-tenancy docs](./multitenancy/)
+  </Card>
+<Card title="Explore the full suite" icon="list-format">
+    Browse documentation for Programs, Certifications, Training credits,
+    Supervisors & teams, and more. All plugins are listed in the sidebar.
+  </Card>
 </CardGrid>
+
+<br /><br /><br />
+
+---
+
+<br />
+
+<small>Moodle™ is a registered trademark of Moodle Pty Ltd. MuTMS is not affiliated with or endorsed by Moodle Pty Ltd.</small>

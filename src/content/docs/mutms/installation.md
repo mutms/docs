@@ -35,7 +35,7 @@ and simplifies installation significantly.
 The [mutms/mutms](https://github.com/mutms/mutms) repository is a full Moodle
 distribution with all MuTMS plugins pre-included. This is the easiest way to
 get started — no need to install Moodle and plugins separately. It always
-includes the latest MuTMS plugins, making it ideal for evaluation or for sites
+includes the latest Moodle and MuTMS plugins, making it ideal for evaluation or for sites
 that want to stay up to date with the full suite.
 
 ### Install from within Moodle
@@ -57,3 +57,11 @@ documentation for the specific clone path and setup steps.
 For general Git-based installation instructions see
 [Installing plugins](https://docs.moodle.org/en/Installing_plugins) in the
 Moodle documentation.
+
+## Moodle compatibility
+
+MuTMS releases target all officially supported Moodle releases at the time of
+release. This means you can use MuTMS with any Moodle version that is currently
+receiving security updates. For information on which Moodle versions are
+currently supported see the
+[Moodle releases page](https://moodledev.io/general/releases).

@@ -16,3 +16,7 @@
 .social-icons a:hover {
     color: black !important;
 }
+
+:root {
+    --sl-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+}
