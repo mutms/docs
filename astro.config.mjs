@@ -19,7 +19,7 @@ export default defineConfig({
 					label: 'Overview',
 					items: [
 						{ label: 'What is MuTMS?', slug: 'mutms' },
-						{ label: 'Distribution', slug: 'mutms/distribution' },
+						{ label: 'Installing MuTMS', slug: 'mutms/distribution' },
 					],
 				},
 				{
