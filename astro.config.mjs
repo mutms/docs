@@ -35,6 +35,12 @@ export default defineConfig({
 					label: 'Programs',
 					items: [
 						{label: 'Overview', slug: 'programs' },
+						{label: 'Installation', slug: 'programs/installation' },
+						{slug: 'programs/use-cases' },
+						{slug: 'programs/management' },
+						{slug: 'programs/catalogue' },
+						{slug: 'programs/my-programs-page' },
+						{slug: 'programs/my-programs-block' },
 					],
 				},
 				{
