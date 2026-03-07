@@ -59,6 +59,8 @@ export default defineConfig({
 					label: 'Training credits',
 					items: [
 						{label: 'Overview', slug: 'credits' },
+						{label: 'Installation', slug: 'credits/installation' },
+						{slug: 'credits/usage' },
 					],
 				},
 				{

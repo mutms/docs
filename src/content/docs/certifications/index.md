@@ -7,8 +7,7 @@ Certifications is a plugin set for Moodle that allows organisations to define
 certifications tied to [Programs](../programs/), track compliance through
 certification periods, and automate recertification. It is designed to make
 workforce compliance with industry standards and regulations straightforward
-to manage. Fully open source under GPL 3.0 with no restrictions on commercial
-use.
+to manage.
 
 ## Features
 

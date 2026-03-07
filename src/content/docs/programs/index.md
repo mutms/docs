@@ -6,8 +6,7 @@ description: An overview of the MuTMS Programs plugin for Moodle LMS.
 Programs is a plugin set for Moodle that enables the creation of structured
 learning pathways — grouping courses, offline activities, and credit frameworks
 into sequential, rule-based journeys. Designed for organisations managing
-complex training or educational offerings at scale, it is fully open source
-under GPL 3.0 with no restrictions on commercial use.
+complex training or educational offerings at scale.
 
 ## Features
 
