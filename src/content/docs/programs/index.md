@@ -21,7 +21,9 @@ under GPL 3.0 with no restrictions on commercial use.
   the correct courses at the right time based on sequencing rules and schedules
 - **Program catalogue** — learners can browse available programs and
   associated courses; will be replaced by a universal catalogue in a future release
-- **My Programs page** — a dedicated overview page accessible from the main
+- **My Programs page** — a profile page giving learners a view of their
+  current and past programs
+- **My Programs overview page** — a dedicated overview page accessible from the main
   menu with card, list, and detail views
 - **My Programs block** — a dashboard block for quick access to enrolled
   programs and progress

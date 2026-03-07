@@ -41,6 +41,7 @@ export default defineConfig({
 						{slug: 'programs/catalogue' },
 						{slug: 'programs/my-programs-page' },
 						{slug: 'programs/my-programs-block' },
+						{slug: 'programs/my-programs-overview' },
 					],
 				},
 				{
