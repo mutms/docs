@@ -3,7 +3,7 @@ title: My programs page
 description: The My programs profile page in MuTMS Programs plugin for Moodle LMS.
 ---
 
-The **My programs** page on the user profile shows all programs a learner is
+The *My programs* page on the user profile shows all programs a learner is
 currently allocated to. Archived programs and archived allocations are not
 shown.
 

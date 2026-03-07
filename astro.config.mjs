@@ -48,6 +48,11 @@ export default defineConfig({
 					label: 'Certifications',
 					items: [
 						{label: 'Overview', slug: 'certifications' },
+						{label: 'Installation', slug: 'certifications/installation' },
+						{slug: 'certifications/management' },
+						{slug: 'certifications/catalogue' },
+						{slug: 'certifications/my-certifications-page' },
+						{slug: 'certifications/my-certifications-block' },
 					],
 				},
 				{
