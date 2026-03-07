@@ -27,6 +27,8 @@ export default defineConfig({
 					items: [
 						{label: 'Overview', slug: 'multitenancy' },
 						{label: 'Installation', slug: 'multitenancy/installation' },
+						{slug: 'multitenancy/management' },
+						{slug: 'multitenancy/architecture' },
 					],
 				},
 				{
