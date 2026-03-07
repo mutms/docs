@@ -37,7 +37,3 @@ MuTMS is modular — you install only what you need. The suite covers:
 - [Custom home pages](../homepages/) — give each cohort or tenant a tailored landing experience
 - [Interactive books](../books/) — enhanced content module for structured reading material
 - [Security improvements](../security/) — security-related tools and improvements
-
----
-
-<small>Moodle™ is a registered trademark of Moodle Pty Ltd. MuTMS is not affiliated with or endorsed by Moodle Pty Ltd.</small>
