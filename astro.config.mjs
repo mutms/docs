@@ -64,9 +64,11 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Supervisors & Teams',
+					label: 'Supervisors & teams',
 					items: [
 						{label: 'Overview', slug: 'relations' },
+						{label: 'Installation', slug: 'relations/installation' },
+						{slug: 'relations/usage' },
 					],
 				},
 				{
