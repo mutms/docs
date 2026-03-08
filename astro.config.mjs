@@ -109,6 +109,9 @@ export default defineConfig({
 	vite: {
 		server: {
 			allowedHosts: ['node.sitedocs.orb.local']
-		}
+		},
+		preview: {
+			allowedHosts: ['node.sitedocs.orb.local']
+		},
 	},
 });
