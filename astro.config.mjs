@@ -91,6 +91,9 @@ export default defineConfig({
 					label: 'Security improvements',
 					items: [
 						{label: 'Overview', slug: 'security' },
+						{slug: 'security/mupwned'},
+						{slug: 'security/musudo'},
+						{slug: 'security/muloginas'},
 					],
 				},
 			],
