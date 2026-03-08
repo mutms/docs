@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70" height="70">
-  <rect x="0" y="0" width="70" height="70" rx="17.5" ry="17.5" fill="#ff7700"/>
-  <g transform="matrix(1,0,0,-1,10,60)" fill="white" fill-rule="evenodd">
+  <rect x="0" y="0" width="70" height="70" rx="17.5" ry="17.5" fill="white"/>
+  <g transform="matrix(1,0,0,-1,10,60)" fill="#ff7700" fill-rule="evenodd">
     <path d="m 9,0 h 32 a 9,9 0 0 1 9,9 v 32 a 9,9 0 0 1 -9,9 H 9 A 9,9 0 0 1 0,41 V 9 A 9,9 0 0 1 9,0 Z M 8,17 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 1 1,1 v 9 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 1 1,1 v 8 a 1,1 0 0 0 1,1 h 9 a 1,1 0 0 0 1,-1 V 12 A 1,1 0 0 0 38,11 H 9 a 1,1 0 0 0 -1,1 z"/>
   </g>
 </svg>
