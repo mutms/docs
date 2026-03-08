@@ -75,12 +75,16 @@ export default defineConfig({
 					label: 'Custom home pages',
 					items: [
 						{label: 'Overview', slug: 'homepages' },
+						{label: 'Installation', slug: 'homepages/installation' },
+						{slug: 'homepages/usage' },
 					],
 				},
 				{
 					label: 'Interactive books',
 					items: [
 						{label: 'Overview', slug: 'books' },
+						{label: 'Installation', slug: 'books/installation' },
+						{slug: 'books/usage' },
 					],
 				},
 				{
