@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
     integrations: [starlight({
-        title: 'Docs',
+        title: 'MuTMS Docs',
         logo: {
             src: './src/assets/logo.svg',
             replacesTitle: false,
