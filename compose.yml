@@ -15,9 +15,9 @@ services:
         target: /astro
         bind:
           create_host_path: true
-    ports:
-      - "127.0.0.1:4321:4321"
-      - "127.0.0.1:8787:8787"
+#    ports:
+#      - "127.0.0.1:4321:4321"
+#      - "127.0.0.1:8787:8787"
     environment:
       - NODE_ENV=development
 networks:
