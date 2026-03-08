@@ -2,116 +2,116 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'Docs',
-			logo: {
-				src: './src/assets/logo.svg',
-				replacesTitle: false,
-			},
-			favicon: '/favicon.svg',
-			customCss: ['./src/styles/custom.css'],
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/mutms' }],
-			sidebar: [
-				{
-					label: 'Overview',
-					items: [
-						{ label: 'What is MuTMS?', slug: 'mutms' },
-						{ label: 'Installing MuTMS', slug: 'mutms/installation' },
-					],
-				},
-				{
-					label: 'Multi-tenancy',
-					items: [
-						{label: 'Overview', slug: 'multitenancy' },
-						{label: 'Installation', slug: 'multitenancy/installation' },
-						{slug: 'multitenancy/management' },
-						{slug: 'multitenancy/architecture' },
-					],
-				},
-				{
-					label: 'Programs',
-					items: [
-						{label: 'Overview', slug: 'programs' },
-						{label: 'Installation', slug: 'programs/installation' },
-						{slug: 'programs/use-cases' },
-						{slug: 'programs/management' },
-						{slug: 'programs/catalogue' },
-						{slug: 'programs/my-programs-page' },
-						{slug: 'programs/my-programs-block' },
-						{slug: 'programs/my-programs-overview' },
-					],
-				},
-				{
-					label: 'Certifications',
-					items: [
-						{label: 'Overview', slug: 'certifications' },
-						{label: 'Installation', slug: 'certifications/installation' },
-						{slug: 'certifications/management' },
-						{slug: 'certifications/catalogue' },
-						{slug: 'certifications/my-certifications-page' },
-						{slug: 'certifications/my-certifications-block' },
-					],
-				},
-				{
-					label: 'Training credits',
-					items: [
-						{label: 'Overview', slug: 'credits' },
-						{label: 'Installation', slug: 'credits/installation' },
-						{slug: 'credits/usage' },
-					],
-				},
-				{
-					label: 'Supervisors & teams',
-					items: [
-						{label: 'Overview', slug: 'relations' },
-						{label: 'Installation', slug: 'relations/installation' },
-						{slug: 'relations/usage' },
-					],
-				},
-				{
-					label: 'Custom home pages',
-					items: [
-						{label: 'Overview', slug: 'homepages' },
-						{label: 'Installation', slug: 'homepages/installation' },
-						{slug: 'homepages/usage' },
-					],
-				},
-				{
-					label: 'Interactive books',
-					items: [
-						{label: 'Overview', slug: 'books' },
-						{label: 'Installation', slug: 'books/installation' },
-						{slug: 'books/usage' },
-					],
-				},
-				{
-					label: 'Security improvements',
-					items: [
-						{label: 'Overview', slug: 'security' },
-						{slug: 'security/mupwned'},
-						{slug: 'security/musudo'},
-						{slug: 'security/muloginas'},
-					],
-				},
-			],
-		}),
-	],
+    integrations: [starlight({
+        title: 'Docs',
+        logo: {
+            src: './src/assets/logo.svg',
+            replacesTitle: false,
+        },
+        favicon: '/favicon.svg',
+        customCss: ['./src/styles/custom.css'],
+        social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/mutms' }],
+        sidebar: [
+            {
+                label: 'Overview',
+                items: [
+                    { label: 'What is MuTMS?', slug: 'mutms' },
+                    { label: 'Installing MuTMS', slug: 'mutms/installation' },
+                ],
+            },
+            {
+                label: 'Multi-tenancy',
+                items: [
+                    {label: 'Overview', slug: 'multitenancy' },
+                    {label: 'Installation', slug: 'multitenancy/installation' },
+                    {slug: 'multitenancy/management' },
+                    {slug: 'multitenancy/architecture' },
+                ],
+            },
+            {
+                label: 'Programs',
+                items: [
+                    {label: 'Overview', slug: 'programs' },
+                    {label: 'Installation', slug: 'programs/installation' },
+                    {slug: 'programs/use-cases' },
+                    {slug: 'programs/management' },
+                    {slug: 'programs/catalogue' },
+                    {slug: 'programs/my-programs-page' },
+                    {slug: 'programs/my-programs-block' },
+                    {slug: 'programs/my-programs-overview' },
+                ],
+            },
+            {
+                label: 'Certifications',
+                items: [
+                    {label: 'Overview', slug: 'certifications' },
+                    {label: 'Installation', slug: 'certifications/installation' },
+                    {slug: 'certifications/management' },
+                    {slug: 'certifications/catalogue' },
+                    {slug: 'certifications/my-certifications-page' },
+                    {slug: 'certifications/my-certifications-block' },
+                ],
+            },
+            {
+                label: 'Training credits',
+                items: [
+                    {label: 'Overview', slug: 'credits' },
+                    {label: 'Installation', slug: 'credits/installation' },
+                    {slug: 'credits/usage' },
+                ],
+            },
+            {
+                label: 'Supervisors & teams',
+                items: [
+                    {label: 'Overview', slug: 'relations' },
+                    {label: 'Installation', slug: 'relations/installation' },
+                    {slug: 'relations/usage' },
+                ],
+            },
+            {
+                label: 'Custom home pages',
+                items: [
+                    {label: 'Overview', slug: 'homepages' },
+                    {label: 'Installation', slug: 'homepages/installation' },
+                    {slug: 'homepages/usage' },
+                ],
+            },
+            {
+                label: 'Interactive books',
+                items: [
+                    {label: 'Overview', slug: 'books' },
+                    {label: 'Installation', slug: 'books/installation' },
+                    {slug: 'books/usage' },
+                ],
+            },
+            {
+                label: 'Security improvements',
+                items: [
+                    {label: 'Overview', slug: 'security' },
+                    {slug: 'security/mupwned'},
+                    {slug: 'security/musudo'},
+                    {slug: 'security/muloginas'},
+                ],
+            },
+        ],
+		}), sitemap()],
 
-	site: 'https://docs.mutms.org',
-	server: {
-		host: '0.0.0.0',
-		port: 4321
-	},
+    site: 'https://docs.mutms.org',
+    server: {
+        host: '0.0.0.0',
+        port: 4321
+    },
 
-	vite: {
-		server: {
-			allowedHosts: ['node.sitedocs.orb.local']
-		},
-		preview: {
-			allowedHosts: ['node.sitedocs.orb.local']
-		},
-	},
+    vite: {
+        server: {
+            allowedHosts: ['node.sitedocs.orb.local']
+        },
+        preview: {
+            allowedHosts: ['node.sitedocs.orb.local']
+        },
+    },
 });
