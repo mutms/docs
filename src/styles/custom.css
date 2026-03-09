@@ -43,3 +43,43 @@
 /* Heading spacing */
 .sl-heading-wrapper.level-h2 { margin-top: 1.4rem; }
 .sl-heading-wrapper.level-h3 { margin-top: 1.2rem; }
+
+.sl-markdown-content a:not(.sl-link-button) {
+    color: var(--sl-color-text);
+}
+
+.sl-markdown-content a:not(.sl-link-button):hover {
+    color: #ff7700;
+}
+
+starlight-toc a {
+    color: var(--sl-color-text);
+}
+
+starlight-toc a:hover,
+starlight-toc a[aria-current="true"] {
+    color: #ff7700;
+}
+
+.card .icon {
+    border-color: var(--sl-color-text) !important;
+    background-color: transparent !important;
+    color: var(--sl-color-text) !important;
+}
+
+.sl-link-button:hover {
+    color: #ff7700 !important;
+}
+
+.sl-link-card:hover .title {
+    color: #ff7700 !important;
+}
+
+[aria-current="page"] {
+    background-color: #ff7700 !important;
+    font-weight: 800;
+}
+
+.sidebar a:not([aria-current="page"]):hover {
+    color: #ff7700 !important;
+}
