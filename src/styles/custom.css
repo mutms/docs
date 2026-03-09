@@ -1,6 +1,5 @@
-
 .site-title {
-    color: black !important;
+    color: var(--sl-color-text) !important;
     text-decoration: none;
     gap: 0.75rem;
 }
@@ -13,16 +12,16 @@
 }
 
 .site-title:hover {
-    color: black !important;
+    color: var(--sl-color-text) !important;
 }
 
 .social-icons a {
-    color: black !important;
+    color: var(--sl-color-text) !important;
     text-decoration: none;
 }
 
 .social-icons a:hover {
-    color: black !important;
+    color: var(--sl-color-text) !important;
 }
 
 :root {
