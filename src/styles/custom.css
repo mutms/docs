@@ -12,7 +12,16 @@
 }
 
 .site-title:hover {
-    color: var(--sl-color-text) !important;
+    color: #ff7700 !important;
+}
+
+.site-title:hover span {
+    color: #ff7700 !important;
+}
+
+.social-icons a:hover svg {
+    color: #ff7700;
+    fill: #ff7700;
 }
 
 .social-icons a {
