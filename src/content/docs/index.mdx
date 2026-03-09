@@ -3,7 +3,7 @@ title: MuTMS Documentation
 description: Get started with MuTMS suite of plugins.
 ---
 
-import { Card, CardGrid, LinkButton } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkButton, LinkCard } from '@astrojs/starlight/components';
 
 Get started with MuTMS suite of plugins for Moodle™ LMS!
 
@@ -18,23 +18,32 @@ Get started with MuTMS suite of plugins for Moodle™ LMS!
 <br />
 
 <CardGrid stagger>
-  <Card title="What is MuTMS?" icon="information">
-    Learn what MuTMS is, what problems it solves, and whether it is the right
-    fit for your organisation. [Read the overview](./mutms/)
-  </Card>
-  <Card title="Install MuTMS" icon="down-caret">
-    Choose the installation method that suits your setup — from a full
-    ready-to-run distribution to individual plugins via Git or the Moodle
-    plugins database. [Installation guide](./mutms/installation/)
-  </Card>
-  <Card title="Configure Multi-tenancy" icon="setting">
-    Set up tenants, assign administrators, and configure branding and isolation
-    settings for each tenant on your site. [Multi-tenancy docs](./multitenancy/)
-  </Card>
-<Card title="Explore the full suite" icon="list-format">
-    Browse documentation for Programs, Certifications, Training credits,
-    Supervisors & teams, and more. All plugins are listed in the sidebar.
-  </Card>
+    <Card title="What is MuTMS?" icon="information">
+        Learn what MuTMS is, what problems it solves, and whether it is the right
+        fit for your organisation. [MuTMS overview](./mutms/)
+    </Card>
+    <Card title="Install MuTMS" icon="down-caret">
+        Choose the installation method that suits your setup — from a full
+        ready-to-run distribution to individual plugins via Git or the Moodle
+        plugins database. [Installation guide](./mutms/installation/)
+    </Card>
+</CardGrid>
+
+<br />
+
+---
+
+## Plugins
+
+<CardGrid>
+    <LinkCard title="Multi-tenancy" href="./multitenancy/" description="Tenant isolation, branding, and user management for a single Moodle site." />
+    <LinkCard title="Programs" href="./programs/" description="Structured learning pathways with automated enrolment and scheduling." />
+    <LinkCard title="Certifications" href="./certifications/" description="Time-limited certifications with validity periods and recertification." />
+    <LinkCard title="Training credits" href="./credits/" description="Credit-based completion criteria for courses and programs." />
+    <LinkCard title="Supervisors & teams" href="./relations/" description="Structured supervisor–subordinate relationships and named teams." />
+    <LinkCard title="Custom home pages" href="./homepages/" description="Tailored landing pages per tenant or cohort." />
+    <LinkCard title="Interactive books" href="./books/" description="A modern replacement for the Moodle Book module with Markdown support." />
+    <LinkCard title="Security improvements" href="./security/" description="Compromised password blocking, privileged sessions, and incognito log-in-as." />
 </CardGrid>
 
 <br /><br /><br />
@@ -45,9 +54,9 @@ Get started with MuTMS suite of plugins for Moodle™ LMS!
 
 <div style="line-height: 1.5; font-size: 0.75rem; color: var(--sl-color-gray-3);">
 
-© 2026 Petr Skoda. Documentation licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>. You may share and adapt this material for non-commercial purposes, provided you give appropriate credit and distribute under the same licence.
+    © 2026 Petr Skoda. Documentation licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>. You may share and adapt this material for non-commercial purposes, provided you give appropriate credit and distribute under the same licence.
 
-Some documentation content was prepared with the assistance of large language models (LLMs).
+    Some documentation content was prepared with the assistance of large language models (LLMs).
 
-Moodle™ is a registered trademark of Moodle Pty Ltd. MuTMS is not affiliated with or endorsed by Moodle Pty Ltd.
+    Moodle™ is a registered trademark of Moodle Pty Ltd. MuTMS is not affiliated with or endorsed by Moodle Pty Ltd.
 </div>
