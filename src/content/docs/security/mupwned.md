@@ -39,6 +39,9 @@ includes Moodle and all MuTMS plugins pre-configured.
 
 This plugin has no dependencies. Install it from the
 [Moodle plugins database](https://moodle.org/plugins/tool_mupwned) or via Git:
+
+For Moodle 5.1.x, clone the plugin into `public/admin/tool/mupwned` instead. Use
+`MOODLE_500_STABLE` for Moodle 5.1.x.
 ```bash
 git clone -b MOODLE_405_STABLE https://github.com/moodle/moodle.git
 cd moodle

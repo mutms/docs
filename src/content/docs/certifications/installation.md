@@ -13,20 +13,24 @@ includes Moodle and all MuTMS plugins pre-configured.
 
 1. Install the [Certifications plugin](https://moodle.org/plugins/tool_mucertify)
 2. The following required plugins will be installed automatically:
-    - [MuTMS library](https://moodle.org/plugins/tool_mulib)
-    - [Program enrolment](https://moodle.org/plugins/enrol_muprog)
-    - [My programs block](https://moodle.org/plugins/block_muprog_my)
-    - [My programs overview page](https://moodle.org/plugins/block_muprogmyoverview)
-    - [Programs](https://moodle.org/plugins/tool_muprog)
-    - [My certifications block](https://moodle.org/plugins/block_mucertify_my)
+   - [MuTMS library](https://moodle.org/plugins/tool_mulib)
+   - [Program enrolment](https://moodle.org/plugins/enrol_muprog)
+   - [My programs block](https://moodle.org/plugins/block_muprog_my)
+   - [My programs overview page](https://moodle.org/plugins/block_muprogmyoverview)
+   - [Programs](https://moodle.org/plugins/tool_muprog)
+   - [My certifications block](https://moodle.org/plugins/block_mucertify_my)
 3. Optionally install the following recommended plugins:
-    - [Workplace certificate manager](https://moodle.org/plugins/tool_certificate)
-    - [Certifications certificate element](https://moodle.org/plugins/certificateelement_mucertify)
-    - [Programs certificate element](https://moodle.org/plugins/certificateelement_muprog)
-    - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
-    - [Training credits](https://moodle.org/plugins/tool_mutrain)
+   - [Workplace certificate manager](https://moodle.org/plugins/tool_certificate)
+   - [Certifications certificate element](https://moodle.org/plugins/certificateelement_mucertify)
+   - [Programs certificate element](https://moodle.org/plugins/certificateelement_muprog)
+   - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
+   - [Training credits](https://moodle.org/plugins/tool_mutrain)
 
 ## Installation via Git
+
+For Moodle 5.1.x, clone plugins into `public/admin/tool/...`, `public/enrol/...`, and
+`public/blocks/...` instead of the paths shown below. All MuTMS plugins use `MOODLE_500_STABLE`
+for Moodle 5.1.x.
 
 1. Clone the latest supported Moodle release:
 ```bash

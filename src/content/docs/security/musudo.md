@@ -48,6 +48,9 @@ includes Moodle and all MuTMS plugins pre-configured.
 
 This plugin requires the [MuTMS library](https://moodle.org/plugins/tool_mulib). Install from the
 [Moodle plugins database](https://moodle.org/plugins/tool_musudo) or via Git:
+
+For Moodle 5.1.x, clone plugins into `public/admin/tool/...` instead of the paths shown below.
+All MuTMS plugins use `MOODLE_500_STABLE` for Moodle 5.1.x.
 ```bash
 git clone -b MOODLE_405_STABLE https://github.com/moodle/moodle.git
 cd moodle

@@ -13,9 +13,12 @@ includes Moodle and all MuTMS plugins pre-configured.
 
 1. Install the [Supervisors & teams plugin](https://moodle.org/plugins/tool_murelation)
 2. The following required plugin will be installed automatically:
-    - [MuTMS library](https://moodle.org/plugins/tool_mulib)
+   - [MuTMS library](https://moodle.org/plugins/tool_mulib)
 
 ## Installation via Git
+
+For Moodle 5.1.x, clone plugins into `public/admin/tool/...` instead of the paths shown below.
+All MuTMS plugins use `MOODLE_500_STABLE` for Moodle 5.1.x.
 
 1. Clone the latest supported Moodle release:
 ```bash

@@ -60,8 +60,13 @@ Moodle documentation.
 
 ## Moodle compatibility
 
-MuTMS releases target all officially supported Moodle releases at the time of
-release. This means you can use MuTMS with any Moodle version that is currently
-receiving security updates. For information on which Moodle versions are
-currently supported see the
+MuTMS currently supports Moodle 4.5.x, 5.0.x, and 5.1.x. These correspond to
+all officially supported Moodle releases at the time of writing. For information
+on which Moodle versions are currently receiving security updates see the
 [Moodle releases page](https://moodledev.io/general/releases).
+
+When installing via Git, each plugin repository uses branches named after the
+target Moodle version — for example `MOODLE_405_STABLE` for Moodle 4.5.x and
+`MOODLE_500_STABLE` for Moodle 5.0.x. For Moodle 5.1.x, the Multi-tenancy
+plugin and core patches have a dedicated `MOODLE_501_STABLE` branch, while all
+other plugins use `MOODLE_500_STABLE`.

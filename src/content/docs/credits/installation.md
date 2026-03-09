@@ -12,12 +12,15 @@ includes Moodle and all MuTMS plugins pre-configured.
 ## Using the Moodle plugins database
 
 1. Install the following plugin:
-    - [Training credits](https://moodle.org/plugins/tool_mutrain)
+   - [Training credits](https://moodle.org/plugins/tool_mutrain)
 2. The following required dependencies will be installed automatically:
-    - [MuTMS library](https://moodle.org/plugins/tool_mulib)
-    - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
+   - [MuTMS library](https://moodle.org/plugins/tool_mulib)
+   - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
 
 ## Installation via Git
+
+For Moodle 5.1.x, clone plugins into `public/admin/tool/...` and `public/customfield/...`
+instead of the paths shown below. All MuTMS plugins use `MOODLE_500_STABLE` for Moodle 5.1.x.
 
 1. Clone the latest supported Moodle release:
 ```bash

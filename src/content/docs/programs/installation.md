@@ -13,17 +13,21 @@ includes Moodle and all MuTMS plugins pre-configured.
 
 1. Install the [Programs plugin](https://moodle.org/plugins/tool_muprog)
 2. The following required plugins will be installed automatically:
-    - [MuTMS library](https://moodle.org/plugins/tool_mulib)
-    - [Program enrolment](https://moodle.org/plugins/enrol_muprog)
-    - [My programs block](https://moodle.org/plugins/block_muprog_my)
-    - [My programs overview block](https://moodle.org/plugins/block_muprogmyoverview)
+   - [MuTMS library](https://moodle.org/plugins/tool_mulib)
+   - [Program enrolment](https://moodle.org/plugins/enrol_muprog)
+   - [My programs block](https://moodle.org/plugins/block_muprog_my)
+   - [My programs overview block](https://moodle.org/plugins/block_muprogmyoverview)
 3. Optionally install the following recommended plugins:
-    - [Workplace certificate manager](https://moodle.org/plugins/tool_certificate)
-    - [Programs certificate element](https://moodle.org/plugins/certificateelement_muprog)
-    - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
-    - [Training credits](https://moodle.org/plugins/tool_mutrain)
+   - [Workplace certificate manager](https://moodle.org/plugins/tool_certificate)
+   - [Programs certificate element](https://moodle.org/plugins/certificateelement_muprog)
+   - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
+   - [Training credits](https://moodle.org/plugins/tool_mutrain)
 
 ## Installation via Git
+
+For Moodle 5.1.x, clone plugins into `public/admin/tool/...`, `public/enrol/...`, and
+`public/blocks/...` instead of the paths shown below. All MuTMS plugins use `MOODLE_500_STABLE`
+for Moodle 5.1.x.
 
 1. Clone the latest supported Moodle release:
 ```bash
