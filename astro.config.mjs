@@ -13,7 +13,9 @@ export default defineConfig({
             replacesTitle: false,
         },
         favicon: '/favicon.svg',
-        customCss: ['./src/styles/custom.css'],
+        customCss: [
+            './src/styles/custom.css',
+        ],
         social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/mutms' }],
         sidebar: [
             {
@@ -98,7 +100,7 @@ export default defineConfig({
                 ],
             },
         ],
-		}), sitemap()],
+        }), sitemap()],
 
     site: 'https://docs.mutms.org',
     server: {
@@ -107,11 +109,14 @@ export default defineConfig({
     },
 
     vite: {
-        server: {
-            allowedHosts: ['node.sitedocs.orb.local']
-        },
-        preview: {
-            allowedHosts: ['node.sitedocs.orb.local']
-        },
+      server: {
+          allowedHosts: ['node.sitedocs.orb.local']
+      },
+
+      preview: {
+          allowedHosts: ['node.sitedocs.orb.local']
+      },
+
+      plugins: [],
     },
 });
