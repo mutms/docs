@@ -7,9 +7,9 @@ The *My programs* page on the user profile shows all programs a learner is
 currently allocated to. Archived programs and archived allocations are not
 shown.
 
-![My programs](../../../assets/programs/img_profile_my_programs.png)
+![My programs](../../../assets/muprog/img_profile_my_programs.png)
 
 Learners can track their progress in individual programs by clicking the
 respective program link.
 
-![Program detail](../../../assets/programs/img_profile_my_program.png)
+![Program detail](../../../assets/muprog/img_profile_my_program.png)

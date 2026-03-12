@@ -17,4 +17,4 @@ and always adheres to tenant separation rules. Archived programs are never
 visible in the catalogue. Visibility settings are managed in
 [Program management](../management/#program-visibility).
 
-![Program catalogue](../../../assets/programs/img_catalogue.png)
+![Program catalogue](../../../assets/muprog/img_catalogue.png)

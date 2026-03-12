@@ -7,4 +7,4 @@ The *My certifications* block allows users to stay informed about their assigned
 from their dashboard, giving quick access to all allocated certifications and helping them track their
 compliance status.
 
-![My certifications block](../../../assets/certifications/img_dashboard_my_certifications.png)
+![My certifications block](../../../assets/mucertify/img_dashboard_my_certifications.png)

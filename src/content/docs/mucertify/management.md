@@ -6,7 +6,7 @@ description: How to create, configure, and manage certifications in MuTMS.
 Certifications can be created at either the system or course category context level. Access to the
 certification management interface is, by default, limited to users with Manager or Editing teacher roles.
 
-![List of certifications](../../../assets/certifications/img_certifications.png)
+![List of certifications](../../../assets/mucertify/img_certifications.png)
 
 ## Accessing certification management
 
@@ -43,7 +43,7 @@ the system context level or within a specific category context.
 Entire certifications or individual user assignments can be set to an archived status. Archiving pauses user
 progress in associated programs and makes the certification invisible to regular users.
 
-![Certification settings](../../../assets/certifications/img_certification_general.png)
+![Certification settings](../../../assets/mucertify/img_certification_general.png)
 
 ## Period settings
 
@@ -66,7 +66,7 @@ period is completed:
 
 Window dates are calculated when a new certification period is created.
 
-![Period settings](../../../assets/certifications/img_certification_settings.png)
+![Period settings](../../../assets/mucertify/img_certification_settings.png)
 
 ## Visibility
 
@@ -84,7 +84,7 @@ Visibility is managed through two settings:
 
 Regardless of these settings, users can always see all certifications assigned to them in the catalogue.
 
-![Certification visibility](../../../assets/certifications/img_certification_visibility.png)
+![Certification visibility](../../../assets/mucertify/img_certification_visibility.png)
 
 :::note
 The *My Certifications* profile page and block display all certifications assigned to a user irrespective of
@@ -107,15 +107,15 @@ Users may be assigned to a certification through the following sources:
 
 When a user is assigned, a first certification period is created and a certification window opens.
 
-![Certification assignment settings](../../../assets/certifications/img_certification_assignment.png)
+![Certification assignment settings](../../../assets/mucertify/img_certification_assignment.png)
 
 ## Certification users
 
 The assigned users page provides a comprehensive overview of all users' certification state.
 
-![Certification users](../../../assets/certifications/img_certification_users.png)
+![Certification users](../../../assets/mucertify/img_certification_users.png)
 
 Individual user assignment details can be accessed by clicking on the corresponding user link, providing an
 overview of that user's certification periods and general status.
 
-![User assignment detail](../../../assets/certifications/img_assignment.png)
+![User assignment detail](../../../assets/mucertify/img_assignment.png)

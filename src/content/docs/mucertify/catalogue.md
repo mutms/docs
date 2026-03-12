@@ -15,4 +15,4 @@ The catalogue can be accessed from the [My certifications](../my-certifications-
 Visibility is managed through the [certification management interface](../management/#visibility). Archived
 certifications are never shown in the catalogue. Tenant separation rules are always enforced.
 
-![Certification catalogue](../../../assets/certifications/img_catalogue.png)
+![Certification catalogue](../../../assets/mucertify/img_catalogue.png)

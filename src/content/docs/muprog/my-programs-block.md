@@ -8,4 +8,4 @@ quick access to their allocated programs without navigating away from the
 dashboard. It displays program names and links to program details, making it
 easy to monitor progress at a glance.
 
-![My Programs block](../../../assets/programs/img_dashboard_my_programs.png)
+![My Programs block](../../../assets/muprog/img_dashboard_my_programs.png)

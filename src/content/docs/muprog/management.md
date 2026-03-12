@@ -7,7 +7,7 @@ Programs can be created at either the system or course category context level.
 Access to the program management interface is, by default, limited to users
 with Manager or Editing teacher roles.
 
-![List of programs](../../../assets/programs/img_programs.png)
+![List of programs](../../../assets/muprog/img_programs.png)
 
 ## Accessing program management
 
@@ -50,7 +50,7 @@ Entire programs or individual user allocations can be archived. Archiving
 halts user progress in program courses and removes the program from the
 catalogue and learners' view.
 
-![General program settings](../../../assets/programs/img_program_general.png)
+![General program settings](../../../assets/muprog/img_program_general.png)
 
 ## Program content
 
@@ -58,7 +58,7 @@ Program content is structured hierarchically, with each set comprising
 individual courses, training frameworks, or nested sets. A program is marked
 complete when the allocated user successfully completes the top-level set.
 
-![Program content](../../../assets/programs/img_program_content.png)
+![Program content](../../../assets/muprog/img_program_content.png)
 
 ### Course items
 
@@ -119,7 +119,7 @@ The Program catalogue will be replaced by a Universal catalogue plugin in a futu
 which will also take over visibility management.
 :::
 
-![Program visibility](../../../assets/programs/img_program_visibility.png)
+![Program visibility](../../../assets/muprog/img_program_visibility.png)
 
 ## Allocation settings
 
@@ -144,7 +144,7 @@ time of allocation:
 - **Completed program** — users who complete a referenced program are allocated automatically
 - **Certifications** — allocation is managed indirectly through the Certifications plugin
 
-![Allocation settings](../../../assets/programs/img_program_allocation.png)
+![Allocation settings](../../../assets/muprog/img_program_allocation.png)
 
 ## Program users
 
@@ -152,7 +152,7 @@ The **Program users** page provides an overview of all allocated users and
 their progress within a program, allowing managers to monitor allocations and
 advancement from one centralised view.
 
-![Program users](../../../assets/programs/img_program_users.png)
+![Program users](../../../assets/muprog/img_program_users.png)
 
 ### User allocation details
 
@@ -167,4 +167,4 @@ Each user allocation has five key dates:
 Dates 2–4 are calculated automatically during allocation based on the
 allocation settings, but can be manually updated afterwards if needed.
 
-![User allocation](../../../assets/programs/img_allocation.png)
+![User allocation](../../../assets/muprog/img_allocation.png)
