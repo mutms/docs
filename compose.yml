@@ -4,14 +4,14 @@ services:
     container_name: sitewww-docs
     image: node:22-bookworm
     working_dir: /astro
-    # command: tail -f /dev/null
+    # command: tail -f /dev/null # use with: docker-compose up -d
     # command: sh -c "npm install && npm run build && npm run dev"
     command: sh -c "npm install && npm run build && npm run dev & npx wrangler dev --assets ./dist --port 8787 --ip 0.0.0.0"
     networks:
       default: null
     volumes:
       - type: bind
-        source: /Users/skodak/workspace/sitedocs
+        source: ./
         target: /astro
         bind:
           create_host_path: true
