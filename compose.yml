@@ -1,7 +1,7 @@
 name: sitedocs
 services:
   node:
-    container_name: sitewww-docs
+    container_name: sitedocs
     image: node:22-bookworm
     working_dir: /astro
     # command: tail -f /dev/null # use with: docker-compose up -d
