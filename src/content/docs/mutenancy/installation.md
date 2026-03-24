@@ -15,7 +15,7 @@ includes Moodle, the core patch, and all MuTMS plugins pre-configured.
 
 ## Installation via Git
 
-The branch names and plugin paths depend on your Moodle version:
+The branch names and plugin paths depend on Moodle version:
 
 | Moodle version | Moodle branch       | patch branch | `tool_mutenancy` | `tool_mulib` |
 | --- |---------------------| --- | --- | --- |
@@ -23,30 +23,41 @@ The branch names and plugin paths depend on your Moodle version:
 | 5.0.x | `MOODLE_500_STABLE` | `patch/mutenancy/MOODLE_500_STABLE` | `MOODLE_500_STABLE` → `admin/tool/mutenancy` | `MOODLE_500_STABLE` → `admin/tool/mulib` |
 | 5.1.x | `MOODLE_501_STABLE` | `patch/mutenancy/MOODLE_501_STABLE` | `MOODLE_501_STABLE` → `public/admin/tool/mutenancy` | `MOODLE_500_STABLE` → `public/admin/tool/mulib` |
 
-The following commands use Moodle 4.5.x as an example. Adjust branch names and paths according to the table above for other versions.
+After cloning git repositories continue with the
+<a href="https://docs.moodle.org/405/en/Installing_Moodle" target="_blank" rel="noopener">standard Moodle installation</a>.
 
-1. Clone Moodle:
+### Moodle 4.5.x
+
 ```bash
-   git clone -b MOODLE_405_STABLE https://github.com/moodle/moodle.git
+   git clone -b v4.5.10 https://github.com/moodle/moodle.git
    cd moodle
-```
-
-2. Apply the Multi-tenancy core patch:
-```bash
    git remote add patches https://github.com/mutms/patches.git
    git fetch patches
-   git merge patches/patch/mutenancy/MOODLE_405_STABLE
+   git merge mutenancy-4.5.10-01
+   git clone -b v4.5.10.02 https://github.com/mutms/moodle-tool_mulib.git admin/tool/mulib
+   git clone -b v4.5.10.02 https://github.com/mutms/moodle-tool_mutenancy.git admin/tool/mutenancy
 ```
 
-3. Clone the MuTMS library plugin:
+### Moodle 5.0.x
+
 ```bash
-   git clone -b MOODLE_405_STABLE https://github.com/mutms/moodle-tool_mulib.git admin/tool/mulib
+   git clone -b v5.0.6 https://github.com/moodle/moodle.git
+   cd moodle
+   git remote add patches https://github.com/mutms/patches.git
+   git fetch patches
+   git merge mutenancy-5.0.6-01
+   git clone -b v5.0.6.02 https://github.com/mutms/moodle-tool_mulib.git admin/tool/mulib
+   git clone -b v5.0.6.02 https://github.com/mutms/moodle-tool_mutenancy.git admin/tool/mutenancy
 ```
 
-4. Clone the Multi-tenancy plugin:
+### Moodle 5.1.x
+
 ```bash
-   git clone -b MOODLE_405_STABLE https://github.com/mutms/moodle-tool_mutenancy.git admin/tool/mutenancy
+   git clone -b v5.1.3 https://github.com/moodle/moodle.git
+   cd moodle
+   git remote add patches https://github.com/mutms/patches.git
+   git fetch patches
+   git merge mutenancy-5.1.3-01
+   git clone -b v5.0.6.02 https://github.com/mutms/moodle-tool_mulib.git public/admin/tool/mulib
+   git clone -b v5.1.3.02 https://github.com/mutms/moodle-tool_mutenancy.git public/admin/tool/mutenancy
 ```
-
-5. Continue with the
-   <a href="https://docs.moodle.org/405/en/Installing_Moodle" target="_blank" rel="noopener">standard Moodle installation</a>.
