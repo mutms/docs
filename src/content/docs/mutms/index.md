@@ -4,8 +4,8 @@ description: An overview of the MuTMS plugin suite for Moodle LMS.
 ---
 
 MuTMS (Multi-Tenant Management System) is an open-source suite of plugins for
-[Moodle™ LMS](https://moodle.org/) that extends it with enterprise-grade
-multi-tenancy and learner management capabilities.
+[Moodle™ LMS](https://moodle.org/) that extends it with much-requested
+multi-tenancy and other capabilities.
 
 Out of the box, Moodle is a single-site platform. MuTMS changes that by letting
 you partition a single Moodle installation into isolated tenants — each with
@@ -23,7 +23,6 @@ Beyond that, MuTMS is designed to be dependable:
 
 - **Open source** — no vendor lock-in, full visibility into the code, and free to extend for your own needs
 - **Fully tested** — comprehensive automated test suite means fewer surprises when upgrading Moodle or adding new plugins
-- **Professional support** — backed by deep Moodle expertise and extensive experience in enterprise environments
 
 ## What's included?
 
