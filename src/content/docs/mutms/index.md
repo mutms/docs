@@ -26,7 +26,7 @@ Beyond that, MuTMS is designed to be dependable:
 
 ## What's included?
 
-MuTMS is modular — you install only what you need. The suite covers:
+MuTMS is modular — you install only what you need, though the MuTMS distribution makes it easy to install everything at once. The suite covers:
 
 - [Multi-tenancy](../multitenancy/) — partition your Moodle site into isolated tenant spaces
 - [Programs](../programs/) — group courses into structured learning programs with enrolment rules
