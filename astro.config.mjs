@@ -24,6 +24,7 @@ export default defineConfig({
                     { label: 'What is MuTMS?', slug: 'mutms' },
                     { label: 'Installing MuTMS', slug: 'mutms/installation' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Multi-tenancy',
@@ -33,6 +34,7 @@ export default defineConfig({
                     {slug: 'mutenancy/management' },
                     {slug: 'mutenancy/architecture' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Programs',
@@ -46,6 +48,7 @@ export default defineConfig({
                     {slug: 'muprog/my-programs-block' },
                     {slug: 'muprog/my-programs-overview' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Certifications',
@@ -57,6 +60,7 @@ export default defineConfig({
                     {slug: 'mucertify/my-certifications-page' },
                     {slug: 'mucertify/my-certifications-block' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Training credits',
@@ -65,6 +69,7 @@ export default defineConfig({
                     {label: 'Installation', slug: 'mutrain/installation' },
                     {slug: 'mutrain/usage' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Supervisors & teams',
@@ -73,6 +78,7 @@ export default defineConfig({
                     {label: 'Installation', slug: 'murelation/installation' },
                     {slug: 'murelation/usage' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Custom home pages',
@@ -81,6 +87,7 @@ export default defineConfig({
                     {label: 'Installation', slug: 'muhome/installation' },
                     {slug: 'muhome/usage' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Interactive books',
@@ -89,6 +96,7 @@ export default defineConfig({
                     {label: 'Installation', slug: 'mubook/installation' },
                     {slug: 'mubook/usage' },
                 ],
+                collapsed: true,
             },
             {
                 label: 'Security improvements',
@@ -98,6 +106,7 @@ export default defineConfig({
                     {slug: 'musudo'},
                     {slug: 'muloginas'},
                 ],
+                collapsed: true,
             },
         ],
         }), sitemap()],
