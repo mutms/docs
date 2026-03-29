@@ -26,15 +26,13 @@ export default defineConfig({
                 ],
                 collapsed: true,
             },
-            {
-                label: 'Multi-tenancy',
-                items: [
-                    {label: 'Overview', slug: 'mutenancy' },
-                    {label: 'Installation', slug: 'mutenancy/installation' },
-                    {slug: 'mutenancy/management' },
-                    {slug: 'mutenancy/architecture' },
-                ],
-                collapsed: true,
+            { label: 'Multi-tenancy', items: [
+                    { label: 'Overview', slug: 'mutenancy' },
+                    { label: 'Installation', slug: 'mutenancy/installation' },
+                    { label: 'Advanced Git installation', slug: 'mutenancy/git-installation' },
+                    { slug: 'mutenancy/management' },
+                    { slug: 'mutenancy/architecture' },
+                ]
             },
             {
                 label: 'Programs',
