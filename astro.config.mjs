@@ -32,7 +32,8 @@ export default defineConfig({
                     { label: 'Advanced Git installation', slug: 'mutenancy/git-installation' },
                     { slug: 'mutenancy/management' },
                     { slug: 'mutenancy/architecture' },
-                ]
+                ],
+                collapsed: true,
             },
             {
                 label: 'Programs',
