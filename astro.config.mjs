@@ -115,19 +115,6 @@ export default defineConfig({
 
     site: 'https://docs.mutms.org',
     server: {
-        host: '0.0.0.0',
         port: 4321
-    },
-
-    vite: {
-      server: {
-          allowedHosts: ['node.sitedocs.orb.local']
-      },
-
-      preview: {
-          allowedHosts: ['node.sitedocs.orb.local']
-      },
-
-      plugins: [],
     },
 });
