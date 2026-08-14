@@ -115,6 +115,6 @@ export default defineConfig({
 
     site: 'https://docs.mutms.org',
     server: {
-        port: 4321
+        port: 4322
     },
 });
