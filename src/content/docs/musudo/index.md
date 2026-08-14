@@ -46,8 +46,10 @@ If you are setting up a new site or evaluating MuTMS, the
 includes Moodle and all MuTMS plugins pre-configured.
 :::
 
-This plugin requires the [MuTMS library](https://moodle.org/plugins/tool_mulib). Install from the
-[Moodle plugins database](https://moodle.org/plugins/tool_musudo) or via Git:
+This plugin requires the [MuTMS library](https://github.com/mutms/moodle-tool_mulib/tags), which
+must be installed first. Download the release packages from the
+[Privileged sessions tags page](https://github.com/mutms/moodle-tool_musudo/tags) and install them
+under *Site administration ▸ Plugins ▸ Install plugins*, or use Git:
 
 For Moodle 5.1.x, clone plugins into `public/admin/tool/...` instead of the paths shown below.
 All MuTMS plugins use `MOODLE_500_STABLE` for Moodle 5.1.x.

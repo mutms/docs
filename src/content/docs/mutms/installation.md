@@ -3,7 +3,7 @@ title: Installing MuTMS
 description: How to install MuTMS plugins for Moodle LMS.
 ---
 
-MuTMS plugins are distributed through three official channels and can be installed
+MuTMS plugins are distributed through two official channels and can be installed
 using one of several methods depending on your setup.
 
 MuTMS currently supports Moodle 4.5.x, 5.0.x, and 5.1.x. These correspond to
@@ -37,14 +37,19 @@ or rely on overview of changes in the [MuTMS releases page](https://github.com/m
 All MuTMS plugin releases are automatically published to [Packagist](https://packagist.org/?query=mutms)
 repository to allow installation via Composer.
 
-### Moodle Plugins Database
+Release packages for each plugin can be downloaded from its tags page on GitHub,
+for example [moodle-tool_muprog tags](https://github.com/mutms/moodle-tool_muprog/tags).
 
-All MuTMS plugins are listed in the official
-[Moodle Plugins Database](https://moodle.org/plugins). You can search for
-"MuTMS" to find the full collection. The plugins database is the recommended
-source for installing directly from within an existing Moodle instance. Note
-that the Multi-tenancy plugin requires a core Moodle patch that cannot be
-distributed through the plugins database.
+## A note on the Moodle Marketplace
+
+MuTMS is not available in the Moodle Marketplace. Clause 2.1 of the
+[Moodle Marketplace Terms](https://moodle.atlassian.net/wiki/external/NzZlYWExYTIzZmU5NDJiYzgwODJjNmU1MjhiNDQ0YjQ)
+states that Moodle will not list apps that "directly compete with Moodle's
+commercial offerings", and MuTMS has been recognised as directly competing with
+Moodle Workplace.
+
+This means MuTMS plugins cannot be found or installed by searching from within
+your Moodle site. Use one of the installation methods below instead.
 
 ## Installation methods
 
@@ -84,13 +89,18 @@ Two seeds are available depending on whether you need multi-tenancy:
 - [mutms/seed-mutenancy](https://github.com/mutms/seed-mutenancy) — Moodle
   with the multi-tenancy core patch applied
 
-### Install from within Moodle without multi-tenancy
+### Install into an existing Moodle site without multi-tenancy
 
-If you already have a Moodle site, you can install MuTMS plugins directly
-through the Moodle administration interface. Moodle can find and install plugins
-from the plugins database without leaving your site. For full instructions see
+If you already have a Moodle site, you can install MuTMS plugins from ZIP
+packages through the Moodle administration interface. Download the ZIP for each
+plugin from its tags page on GitHub, then upload it under
+*Site administration ▸ Plugins ▸ Install plugins*. For full instructions see
 [Installing plugins](https://docs.moodle.org/en/Installing_plugins) in the
 Moodle documentation.
+
+Because the plugins are not served from the Moodle Marketplace, dependencies are
+not resolved automatically. Install them in the order given on each plugin's
+installation page, starting with the MuTMS library.
 
 ### Advanced installation via Git with multi-tenancy
 

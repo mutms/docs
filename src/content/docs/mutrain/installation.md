@@ -9,13 +9,17 @@ If you are setting up a new site or evaluating MuTMS, the
 includes Moodle and all MuTMS plugins pre-configured.
 :::
 
-## Using the Moodle plugins database
+## Installing from ZIP packages
 
-1. Install the following plugin:
-   - [Training credits](https://moodle.org/plugins/tool_mutrain)
-2. The following required dependencies will be installed automatically:
-   - [MuTMS library](https://moodle.org/plugins/tool_mulib)
-   - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
+MuTMS plugins are not listed in the Moodle Marketplace, so they cannot be found from
+within your Moodle site. Download the release package for each plugin from its tags
+page on GitHub and install it under *Site administration ▸ Plugins ▸ Install plugins*.
+
+Dependencies are not resolved automatically — install the plugins in the order listed.
+
+1. [MuTMS library](https://github.com/mutms/moodle-tool_mulib/tags)
+2. [Training credits custom field](https://github.com/mutms/moodle-customfield_mutrain/tags)
+3. [Training credits](https://github.com/mutms/moodle-tool_mutrain/tags)
 
 ## Installation via Git
 

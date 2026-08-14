@@ -3,8 +3,8 @@ title: Installing Multi-tenancy
 description: How to install the MuTMS Multi-tenancy plugin for Moodle LMS.
 ---
 
-The Multi-tenancy plugin requires a core Moodle patch and cannot be installed
-directly from the Moodle plugins database.
+The Multi-tenancy plugin requires a core Moodle patch and therefore cannot be
+installed from a plugin package alone.
 
 ## Installation of MuTMS distribution
 

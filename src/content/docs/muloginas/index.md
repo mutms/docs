@@ -30,8 +30,9 @@ If you are setting up a new site or evaluating MuTMS, the
 includes Moodle and all MuTMS plugins pre-configured.
 :::
 
-This plugin has no dependencies. Install it from the
-[Moodle plugins database](https://moodle.org/plugins/tool_muloginas) or via Git:
+This plugin has no dependencies. Download the release package from the
+[tags page](https://github.com/mutms/moodle-tool_muloginas/tags) and install it under
+*Site administration ▸ Plugins ▸ Install plugins*, or use Git:
 
 For Moodle 5.1.x, clone the plugin into `public/admin/tool/muloginas` instead. Use
 `MOODLE_500_STABLE` for Moodle 5.1.x.

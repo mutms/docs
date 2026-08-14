@@ -9,22 +9,28 @@ If you are setting up a new site or evaluating MuTMS, the
 includes Moodle and all MuTMS plugins pre-configured.
 :::
 
-## Using the Moodle plugins database
+## Installing from ZIP packages
 
-1. Install the [Certifications plugin](https://moodle.org/plugins/tool_mucertify)
-2. The following required plugins will be installed automatically:
-   - [MuTMS library](https://moodle.org/plugins/tool_mulib)
-   - [Program enrolment](https://moodle.org/plugins/enrol_muprog)
-   - [My programs block](https://moodle.org/plugins/block_muprog_my)
-   - [My programs overview page](https://moodle.org/plugins/block_muprogmyoverview)
-   - [Programs](https://moodle.org/plugins/tool_muprog)
-   - [My certifications block](https://moodle.org/plugins/block_mucertify_my)
-3. Optionally install the following recommended plugins:
+MuTMS plugins are not listed in the Moodle Marketplace, so they cannot be found from
+within your Moodle site. Download the release package for each plugin from its tags
+page on GitHub and install it under *Site administration ▸ Plugins ▸ Install plugins*.
+
+Dependencies are not resolved automatically — install the plugins in the order listed.
+
+1. Required plugins:
+   - [MuTMS library](https://github.com/mutms/moodle-tool_mulib/tags)
+   - [Program enrolment](https://github.com/mutms/moodle-enrol_muprog/tags)
+   - [My programs block](https://github.com/mutms/moodle-block_muprog_my/tags)
+   - [My programs overview page](https://github.com/mutms/moodle-block_muprogmyoverview/tags)
+   - [Programs](https://github.com/mutms/moodle-tool_muprog/tags)
+   - [My certifications block](https://github.com/mutms/moodle-block_mucertify_my/tags)
+   - [Certifications](https://github.com/mutms/moodle-tool_mucertify/tags)
+2. Optionally install the following recommended plugins:
    - [Workplace certificate manager](https://moodle.org/plugins/tool_certificate)
-   - [Certifications certificate element](https://moodle.org/plugins/certificateelement_mucertify)
-   - [Programs certificate element](https://moodle.org/plugins/certificateelement_muprog)
-   - [Training credits custom field](https://moodle.org/plugins/customfield_mutrain)
-   - [Training credits](https://moodle.org/plugins/tool_mutrain)
+   - [Certifications certificate element](https://github.com/mutms/moodle-certificateelement_mucertify/tags)
+   - [Programs certificate element](https://github.com/mutms/moodle-certificateelement_muprog/tags)
+   - [Training credits custom field](https://github.com/mutms/moodle-customfield_mutrain/tags)
+   - [Training credits](https://github.com/mutms/moodle-tool_mutrain/tags)
 
 ## Installation via Git
 
